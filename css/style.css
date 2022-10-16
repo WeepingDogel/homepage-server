@@ -1,0 +1,152 @@
+/**
+Filename: style.css
+Description: Main stylesheet.
+Author: WeepingDogel
+**/
+body{
+    margin: 0;
+    background-color: #f3f3f3;
+}
+.TopHead{
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 0px;
+    box-shadow: #8e8e8e 5px 5px 5px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.TopHead h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.URLsBar{
+    background-color: white;
+    box-shadow: #8e8e8e 0px 5px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.URLsBar a{
+    font-size: 25px;
+    transition: 300ms;
+    margin: 0px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.URLsBar a:hover{
+    transition: 300ms;
+    background-color: blueviolet;
+    color: white;
+}
+.PersonInfo{
+    position: fixed;
+    float: left;
+    width: 25%;
+    background-color: white;
+    box-shadow: #8e8e8e 5px 5px 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.PersonInfo h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-bottom: solid 1px black;
+}
+.PersonInfo p{
+    font-size: 16px;
+}
+.PersonInfo img{
+    margin-top: 20px;
+    transition: 1000ms;
+    border-radius: 100%;
+    width: 200px;
+    border: solid 5px blueviolet;
+}
+.PersonInfo a{
+    text-align: justify;
+    text-decoration: none;
+    color: blueviolet;
+}
+.PersonInfo a:hover{
+    text-decoration: underline;
+}
+.URLsBar button{
+    font-size: 25px;
+    border: none;
+    transition: 300ms;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+.URLsBar button:hover{
+    transition: 300ms;
+    background-color: blueviolet;
+    color: white;
+}
+.URLsBar button.dropbtn{
+    font-size: 25px;
+    border: none;
+    transition: 300ms;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+.URLsBar button.dropbtn:hover{
+    transition: 300ms;
+    background-color: blueviolet;
+    color: white;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    text-align: center;
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: #8e8e8e 5px 5px 5px;
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    float: right;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: white;
+    box-shadow: #8e8e8e 5px 5px 5px;
+}
+
+.content h1{
+    font-size: 25px;
+    text-align: center;
+    border-bottom: solid 1px black;
+}
+
+.content p{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+}
+.content p::selection{
+    background-color: blueviolet;
+    color: white;
+}
+
