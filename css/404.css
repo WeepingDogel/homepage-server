@@ -1,0 +1,12 @@
+.As404word{
+    transition: 1000ms;
+    display: inline-block;
+    text-align: center;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.As404word:hover{
+    transition: 1000ms;
+    color: blueviolet;
+    font-size: 120px;
+}
