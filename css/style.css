@@ -24,6 +24,10 @@ body{
     font-size: 50px;
     color: white;
 }
+.TopHead h1::selection{
+    background-color: white;
+    color: blueviolet;
+}
 .URLsBar{
     background-color: white;
     box-shadow: #8e8e8e 5px 5px 5px;
@@ -42,6 +46,10 @@ body{
 }
 .URLsBar a:hover{
     transition: 300ms;
+    background-color: blueviolet;
+    color: white;
+}
+.URLsBar *::selection{
     background-color: blueviolet;
     color: white;
 }
