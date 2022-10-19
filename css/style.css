@@ -159,7 +159,6 @@ body{
     background-color: white;
     box-shadow: #8e8e8e 5px 5px 5px;
 }
-
 .content h1{
     font-size: 25px;
     text-align: center;
@@ -194,4 +193,19 @@ body{
 .content a::selection{
     background-color: blueviolet;
     color: white;
+}
+
+.footer{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30%;
+    padding: 30px;
+    background-color: white;
+    box-shadow: #8e8e8e 5px 5px 5px;
+}
+.footer p{
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
