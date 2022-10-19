@@ -1,0 +1,18 @@
+/**
+Filename: links.css
+Description: Main stylesheet.
+Author: WeepingDogel
+**/
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+a:hover{
+    text-decoration: underline;
+}

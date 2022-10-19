@@ -159,6 +159,11 @@ body{
     background-color: white;
     box-shadow: #8e8e8e 5px 5px 5px;
 }
+.content iframe{
+    width: 100%;
+    height: auto;
+    border: none;
+}
 .content h1{
     font-size: 25px;
     text-align: center;
@@ -198,10 +203,14 @@ body{
 .footer{
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 30%;
+    margin-top: 35%;
     padding: 30px;
     background-color: white;
     box-shadow: #8e8e8e 5px 5px 5px;
+}
+.footer *::selection{
+    background-color: blueviolet;
+    color: white;
 }
 .footer p{
     font-size: 18px;
